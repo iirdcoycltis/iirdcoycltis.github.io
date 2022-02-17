@@ -8,8 +8,8 @@ let sizemax = 64;
 
 class Particle {
   constructor() {
-    this.x = random(width);
-    this.y = random(height);
+    this.x = random(mouseX);
+    this.y = random(mouseY);
     this.vx = random(-10, 10);
     this.vy = random(-10, 10);
     this.r = random(sizemin, sizemax);
